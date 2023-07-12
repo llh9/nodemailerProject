@@ -1,0 +1,17 @@
+{
+  "name": "nodemailerproject",
+  "version": "1.0.0",
+  "description": "basic nodemailer/google app that sends email",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Landon Hinkle JR",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "nodemailer": "^6.9.3"
+  }
+}
